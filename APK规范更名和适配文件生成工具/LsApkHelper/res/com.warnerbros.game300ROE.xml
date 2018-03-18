@@ -1,0 +1,45 @@
+﻿<gameset>
+	<game version="20141125" usejoybutton="1" showjoybutton="1" useformouseudlr="0" multitouch="1" name="300勇士" apk="300勇士.apk" helpalpha="128" tip="" />
+	<!-- 原始操作设置：XXXXXXXX
+	XXXXXXXX	XXXXXXXX
+	-->
+    <!-- 游戏支持的输入模式 -->
+    <inputMode type="0" support="0" default="0" xpress="0" name="手机" key="key" tip="" /> 
+    <inputMode type="1" support="1" default="1" xpress="1" name="游戏手柄" key="key" tip="" /> 
+    <inputMode type="2" support="0" default="0" xpress="0" name="遥控器" key="rc" tip="" /> 
+	<!-- Gravitational Sets -->
+	<Gravitational step="0" tip="" />
+	<!-- regular keys
+	<key key="" incurrentset="" joyusejoy="" longpresstime="" alwayshide="" sendkey="" longdo="" show="" x="" y="" w="" h="" tip="" />
+	-->
+	<!-- 鼠标 -->
+	<!-- 游戏手柄 -->
+	<!-- 方向摇杆 -->
+	<key key="JoyL" 		incurrentset="1" joyusejoy="1" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="1" x="0.130" y="0.764" w="384" h="384" tip="按下：显示隐藏虚拟按键提示" />
+	<key key="JoyR" 		incurrentset="0" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="0" x="0.999" y="0.999" w="256" h="256" tip="鼠标移动/按下：禁用启用鼠标" />
+	<!-- 盾击/格挡 -->
+	<key key="JoyBtA" 		incurrentset="1" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="1" x="0.815" y="0.875" w="190" h="190" tip="盾击/格挡" />
+	<key key="JoyBtB" 		incurrentset="0" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="0" x="0.999" y="0.999" w="168" h="168" tip="" />
+	<!-- 攻击 -->
+	<key key="JoyBtX" 		incurrentset="1" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="1" x="0.940" y="0.730" w="190" h="190" tip="攻击" />
+	<!-- PAUSE -->
+	<!-- 盾击/格挡 -->
+	<key key="JoyBtY" 		incurrentset="1" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="1" x="0.815" y="0.875" w="190" h="190" tip="盾击/格挡" />
+	<!-- Back -->
+	<key key="JoyBtL1" 		incurrentset="1" joyusejoy="0" longpresstime="-11" alwayshide="1" sendkey="0" longdo="0" show="1" x="0.085" y="0.920" w="128" h="128" tip="" />
+	<!-- Select -->
+	<key key="JoyBtR1" 		incurrentset="1" joyusejoy="0" longpresstime="-11" alwayshide="1" sendkey="0" longdo="0" show="1" x="0.910" y="0.920" w="128" h="128" tip="启用鼠标：鼠标点击+禁用鼠标：显示隐藏操作示意图" />
+	<key key="JoyBtL2" 		incurrentset="0" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="0" x="0.999" y="0.999" w="128" h="128" tip="" />
+	<key key="JoyBtR2" 		incurrentset="0" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="0" x="0.999" y="0.999" w="128" h="128" tip="" />
+	<key key="JoyBtUP" 		incurrentset="0" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="0" x="0.999" y="0.999" w="128" h="128" tip="" />
+	<key key="JoyBtDOWN" 	incurrentset="0" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="0" x="0.999" y="0.999" w="128" h="128" tip="" />
+	<key key="JoyBtLEFT" 	incurrentset="0" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="0" x="0.999" y="0.999" w="128" h="128" tip="" />
+	<key key="JoyBtRIGHT" 	incurrentset="0" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="0" x="0.999" y="0.999" w="128" h="128" tip="" />
+	<!-- Back -->
+	<key key="JoyBtBACK" 	incurrentset="1" joyusejoy="0" longpresstime="-11" alwayshide="1" sendkey="0" longdo="0" show="1" x="0.085" y="0.920" w="200" h="200" tip="" />
+	<!-- Select -->
+	<key key="JoyBtSTART" 	incurrentset="1" joyusejoy="0" longpresstime="-11" alwayshide="1" sendkey="0" longdo="0" show="1" x="0.910" y="0.920" w="200" h="200" tip="" />
+	<!-- PAUSE -->
+	<key key="JoyBtLOGO" 	incurrentset="1" joyusejoy="0" longpresstime="-11" alwayshide="0" sendkey="0" longdo="0" show="1" x="0.962" y="0.060" w="128" h="128" tip="" />
+
+</gameset>

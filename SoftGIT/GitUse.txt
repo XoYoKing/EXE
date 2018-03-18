@@ -1,0 +1,43 @@
+$ git config --global user.name "WT"
+$ git config --global user.email 59186618@qq.com
+
+$ git config --global core.editor emacs
+
+$ git config --global merge.tool vimdiff
+
+$ git config --list
+
+
+//
+$ git clone git://github.com/schacon/grit.git
+
+git clone https://git.oschina.net/XoYoKing/MyAndroid.git
+
+$ git status
+
+TortoiseGit
+http://download.tortoisegit.org/tgit/
+
+msysGit
+http://msysgit.github.io/
+
+我把编译好的镜像文件烧入后，当我分区格式化EMMC分区为默认分区时：fdisk -c 0，串口一直打印：Rebooting in 5 seconds..，然后就重启了。
+
+当我分区格式化EMMC分区为：fdisk -c 0 1024 300 300,串口打印：
+
+[    6.340000] init: cannot find '/system/bin/sdcard', disabling 'sdcard'
+[    6.345000] init: cannot find '/system/bin/sh', disabling 'console'
+[    6.350000] android_usb: already disabled
+[    6.355000] android_usb: already disabled
+[    6.360000] adb_open
+[    6.360000] mtp_bind_config
+[    6.365000] adb_bind_config
+[    6.365000] s3c-hsotg s3c-hsotg: PHY already ON
+[    6.375000] s3c-hsotg s3c-hsotg: s3c_hsotg_irq: USBRst
+[    6.945000] CPU3: shutdown
+[    7.455000] CPU2: shutdown
+[    7.860000] CPU1: shutdown
+
+一直卡在这里，也没法输入命令
+
+要怎么处才能正常运行？请哪位大神解惑啊！感激不尽！
